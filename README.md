@@ -22,11 +22,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+-Windows Server or Windows 10 (21H2) – A compatible operating system to host osTicket.
+
+-Internet Information Services (IIS) – Web server to serve the osTicket application.
+
+-PHP (7.4 or later) – Required to run osTicket scripts.
+
+-MySQL (5.7 or later) or MariaDB – Database server for storing ticketing system data.
+
+-osTicket Installation Files – Downloadable from the official osTicket website.
 
 <h2>Installation Steps</h2>
 
