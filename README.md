@@ -47,7 +47,9 @@ Finally, review your selections and click Create. Once the VM is deployed, conne
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After creating your Azure Virtual Machine (VM), you will connect to it using Remote Desktop (RDP). First, retrieve the public IP address by navigating to the Virtual Machines section in the Azure Portal—the public IP will be displayed on the right side.
+
+Next, open Remote Desktop Connection (RDP) on your Windows computer, enter the public IP, and click Connect. On the login page, select "More choices", then "Use a different account". Enter the username and password you created during VM setup, then log in.
 </p>
 <br />
 
