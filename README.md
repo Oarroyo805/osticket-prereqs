@@ -81,7 +81,35 @@ Click OK to install IIS and enable the web server.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Installing PHP Manager for IIS, Rewrite Module, and Setting Up PHP
+
+Install PHP Manager for IIS
+
+Open the osTicket-Installation-Files folder.
+
+Locate PHP Manager and run the installer.
+
+Click Yes on all prompts to complete the installation.
+
+Install IIS Rewrite Module
+
+In the same folder, find the Rewrite Module installer.
+
+Run the installer and follow the setup instructions.
+
+Create a PHP Directory on C: Drive
+
+Open File Explorer and go to **C:**.
+
+Create a new folder named PHP.
+
+Extract PHP 7.3.8 into the PHP Folder
+
+In the osTicket-Installation-Files folder, find PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip).
+
+Right-click it, select Extract All, and choose C:\PHP as the destination.
+
+Click Extract to complete the process.
 </p>
 <br />
 
