@@ -117,7 +117,35 @@ Click Extract to complete the process.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Installing VC Redistributable and MySQL
+
+Install VC Redistributable
+
+Open the osTicket-Installation-Files folder.
+
+Locate the VC Redistributable file and run the installer.
+
+Follow the prompts to complete the installation.
+
+Install MySQL
+
+In the same folder, find the MySQL installer and run it.
+
+On the Choose Setup Type screen, select Typical and click Install.
+
+Click Yes when prompted to allow MySQL to make changes to your device.
+
+Configure MySQL
+
+Before finishing the installation, ensure the "Launch the MySQL Instance Configuration Wizard" box is checked.
+
+Click Finish, and if prompted again, allow MySQL InstanceConfig to make changes.
+
+In the MySQL Server Instance Configuration Wizard, click Next until you reach the Configuration Type screen.
+
+Select Standard Configuration and continue clicking Next until you reach Security Settings.
+
+Set a new root password, confirm it, then click Next and Execute to finalize the setup.
 </p>
 <br />
 
