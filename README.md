@@ -153,7 +153,29 @@ Set a new root password, confirm it, then click Next and Execute to finalize the
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open IIS as Administrator
+
+Click Start, search for IIS (Internet Information Services Manager).
+
+Right-click it and select Run as Administrator.
+
+Register PHP in IIS
+
+Open PHP Manager within IIS.
+
+Click Register new PHP version.
+
+Click the three dots (…) to browse to C:\PHP.
+
+Select the php-cgi file and click OK.
+
+Reload IIS
+
+In IIS Manager, locate osticket-VM on the upper left.
+
+Right-click it and select Stop.
+
+Wait a moment, then right-click it again and select Start.
 </p>
 <br />
 
