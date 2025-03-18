@@ -183,7 +183,29 @@ Wait a moment, then right-click it again and select Start.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Extract osTicket Files
+
+Open the osTicket-Installation-Files folder.
+
+Extract the osticket folder—this will create a new folder named osticket inside the same directory.
+
+Move the Upload Folder
+
+Open the newly created osticket folder.
+
+Inside, locate the upload folder.
+
+Open File Explorer, navigate to C:\inetpub\wwwroot.
+
+Drag and drop the upload folder into wwwroot.
+
+Rename the upload folder to osTicket (ensure exact spelling to avoid issues).
+
+Reload IIS
+
+If IIS Manager is open, right-click osticket-VM in the upper left corner, select Stop, wait a moment, then select Start.
+
+If IIS is closed, search IIS in the Windows menu, right-click, and Run as Administrator, then restart the server as mentioned.
 </p>
 <br />
 
