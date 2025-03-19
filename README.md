@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This guide covers the requirements and installation process for the open-source osTicket help desk ticketing system.<br />
 
 
 
@@ -23,11 +23,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 -Internet Information Services (IIS) – Web server to serve the osTicket application.
 
--PHP (7.4 or later) – Required to run osTicket scripts.
+-PHP – Required to run osTicket scripts.
 
--MySQL (5.7 or later) or MariaDB – Database server for storing ticketing system data.
+-MySQL – Database server for storing ticketing system data.
 
--osTicket Installation Files – Downloadable from the official osTicket website.
+-osTicket Installation Files – Downloadable from the official osTicket website or down below in the installation steps.
 
 <h2>Installation Steps</h2>
 
@@ -325,7 +325,30 @@ Locate HeidiSQL and run the installer.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Summary: Configuring HeidiSQL and Creating the osTicket Database
+Open HeidiSQL
+
+After installation, HeidiSQL should launch automatically.
+
+Click New at the bottom to create a new connection.
+
+Log into MySQL
+
+On the right side, enter:
+
+Username: root
+
+Password: (use the root password set during MySQL installation)
+
+Click Open to connect to the database.
+
+Create the osTicket Database
+
+In the left panel, right-click on Unnamed.
+
+Select Create New → Database.
+
+Name the database osTicket and confirm.
 </p>
 <br />
 
@@ -333,7 +356,29 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Summary: Finalizing osTicket Installation
+Return to the osTicket Setup Page
+
+Open your web browser and go back to the osTicket setup page.
+
+If needed, navigate to localhost/osTicket/setup/.
+
+Enter Database Settings
+
+MySQL Database Name: osTicket
+
+MySQL Username: root
+
+MySQL Password: root
+Complete the Installation
+
+Click Install Now to finalize the setup.
+Congratulations, hopefully it is installed with no errors!
+Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+
+End Users osTicket URL:
+http://localhost/osTicket/ 
+
 </p>
 <br />
 
