@@ -259,7 +259,31 @@ To enable each, right-click it and select Enable.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Summary: Configuring osTicket Configuration File
+Rename Configuration File
+
+Open File Explorer and navigate to:
+C:\inetpub\wwwroot\osTicket\include
+
+Locate ost-sampleconfig.php.
+
+Right-click it and rename it to ost-config.php.
+
+Modify Security Permissions
+
+Right-click ost-config.php and select Properties.
+
+Go to the Security tab and click Advanced.
+
+Click Disable inheritance → Remove all inherited permissions from this object.
+
+Click Add, then Select a principal.
+
+In the Object name field, type everyone, then click OK.
+
+Check the Full control box under Basic permissions, then click OK.
+
+Click Apply and OK to save changes.
 </p>
 <br />
 
