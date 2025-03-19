@@ -35,6 +35,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Summary: Setting Up a Virtual Machine in Azure
+
 To create a Virtual Machine (VM) in Microsoft Azure, start by logging into the Azure Portal and navigating to the Virtual Machines section. Click Create and select a Resource Group, or create a new one (e.g., "osTicket"). Name your VM (e.g., "osticket-VM") and choose a region.
 
 Next, select Windows 10 Pro, version 22H2 - x64 Gen2 as the OS image and pick a VM size with at least 2 vCPUs. Create a username and password for login. Proceed to the Networking section, where Azure will generate a virtual network automatically—leave settings as default or modify if needed.
@@ -47,6 +49,8 @@ Finally, review your selections and click Create. Once the VM is deployed, conne
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Summary: Connecting to Your Azure Virtual Machine via RDP
+
 After creating your Azure Virtual Machine (VM), you will connect to it using Remote Desktop (RDP). First, retrieve the public IP address by navigating to the Virtual Machines section in the Azure Portal—the public IP will be displayed on the right side.
 
 Next, open Remote Desktop Connection (RDP) on your Windows computer, enter the public IP, and click Connect. On the login page, select "More choices", then "Use a different account". Enter the username and password you created during VM setup, then log in.
@@ -57,6 +61,8 @@ Next, open Remote Desktop Connection (RDP) on your Windows computer, enter the p
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Summary: Installing osTicket and Enabling IIS with CGI
+  
 After logging into your Azure Virtual Machine (osticket-VM), open Microsoft Edge and download the osTicket installation files using the following link:
 
 [🔗 osTicket Installation Files](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
@@ -81,7 +87,7 @@ Click OK to install IIS and enable the web server.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Installing PHP Manager for IIS, Rewrite Module, and Setting Up PHP
+Summary: Installing PHP Manager for IIS, Rewrite Module, and Setting Up PHP
 
 Install PHP Manager for IIS
 
@@ -117,7 +123,7 @@ Click Extract to complete the process.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Installing VC Redistributable and MySQL
+Summary: Installing VC Redistributable and MySQL
 
 Install VC Redistributable
 
@@ -153,6 +159,8 @@ Set a new root password, confirm it, then click Next and Execute to finalize the
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Summary: Configuring IIS and Registering PHP
+
 Open IIS as Administrator
 
 Click Start, search for IIS (Internet Information Services Manager).
@@ -183,6 +191,8 @@ Wait a moment, then right-click it again and select Start.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Summary: Installing osTicket and Configuring IIS
+  
 Extract osTicket Files
 
 Open the osTicket-Installation-Files folder.
