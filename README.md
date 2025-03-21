@@ -31,9 +31,9 @@ This guide covers the requirements and installation process for the open-source 
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+![#1](https://github.com/user-attachments/assets/14b13ed2-f84f-49aa-98ac-1fd2c766b6a9)
+
 <p>
 Summary: Setting Up a Virtual Machine in Azure
 
@@ -46,7 +46,9 @@ Finally, review your selections and click Create. Once the VM is deployed, conne
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![2](https://github.com/user-attachments/assets/c51e5d2f-76a9-4700-b77d-fad00883eb5f)
+
 </p>
 <p>
 Summary: Connecting to Your Azure Virtual Machine via RDP
@@ -58,7 +60,9 @@ Next, open Remote Desktop Connection (RDP) on your Windows computer, enter the p
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![3](https://github.com/user-attachments/assets/100f06db-b71e-4372-9728-d8fc685ac39a)
+
 </p>
 <p>
 Summary: Installing osTicket and Enabling IIS with CGI
@@ -79,12 +83,17 @@ Find and check "Internet Information Services (IIS)".
 
 Expand "World Wide Web Services", then expand "Application Development Features", and check the CGI box.
 
+![also3](https://github.com/user-attachments/assets/5a91c09c-9d13-46d5-9283-2cc73ddf711d)
+
+
 Click OK to install IIS and enable the web server.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![4](https://github.com/user-attachments/assets/6eb6aef1-03f1-4a1e-89d8-526d422716e4)
+
 </p>
 <p>
 Summary: Installing PHP Manager for IIS, Rewrite Module, and Setting Up PHP
@@ -120,7 +129,9 @@ Click Extract to complete the process.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![5](https://github.com/user-attachments/assets/f3f348f1-2118-442c-89e7-0066566a6e53)
+
 </p>
 <p>
 Summary: Installing VC Redistributable and MySQL
@@ -156,7 +167,9 @@ Set a new root password, confirm it, then click Next and Execute to finalize the
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![6](https://github.com/user-attachments/assets/006ca7d6-1395-4df7-ab39-e1eab4d1bcde)
+
 </p>
 <p>
 Summary: Configuring IIS and Registering PHP
@@ -175,6 +188,9 @@ Click Register new PHP version.
 
 Click the three dots (…) to browse to C:\PHP.
 
+![6too](https://github.com/user-attachments/assets/a16483cc-f9ab-42f9-8b90-5bb50679bf61)
+
+
 Select the php-cgi file and click OK.
 
 Reload IIS
@@ -188,7 +204,9 @@ Wait a moment, then right-click it again and select Start.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![7](https://github.com/user-attachments/assets/285ecb9a-7d0e-4081-abdf-d99d729b10a4)
+
 </p>
 <p>
 Summary: Installing osTicket and Configuring IIS
@@ -220,7 +238,9 @@ If IIS is closed, search IIS in the Windows menu, right-click, and Run as Admini
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![8](https://github.com/user-attachments/assets/1fe6942f-a65b-4cb8-addb-12c667f36334)
+
 </p>
 <p>
 Summary: Loading osTicket and Enabling Required PHP Extensions
@@ -256,7 +276,9 @@ To enable each, right-click it and select Enable.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![9](https://github.com/user-attachments/assets/b4e6ae92-6b02-49e1-9cd9-c6431ac59e25)
+
 </p>
 <p>
 Summary: Configuring osTicket Configuration File
@@ -288,7 +310,9 @@ Click Apply and OK to save changes.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![10](https://github.com/user-attachments/assets/e903df47-6e8b-4f88-81dd-77dc3cb4c6bc)
+
 </p>
 <p>
 Summary: Completing osTicket Setup and Installing HeidiSQL
@@ -322,7 +346,9 @@ Locate HeidiSQL and run the installer.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![11](https://github.com/user-attachments/assets/c3bacf2d-1e69-4745-b086-539fc56de638)
+
 </p>
 <p>
 Summary: Configuring HeidiSQL and Creating the osTicket Database
@@ -353,7 +379,9 @@ Name the database osTicket and confirm.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![12](https://github.com/user-attachments/assets/c293b880-23c8-4ba8-b6a1-d7a7db7ce99b)
+
 </p>
 <p>
 Summary: Finalizing osTicket Installation
@@ -374,6 +402,7 @@ Complete the Installation
 
 Click Install Now to finalize the setup.
 Congratulations, hopefully it is installed with no errors!
+
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
 End Users osTicket URL:
