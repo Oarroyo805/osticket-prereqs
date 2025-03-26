@@ -35,7 +35,7 @@ This guide covers the requirements and installation process for the open-source 
 ![#1](https://github.com/user-attachments/assets/14b13ed2-f84f-49aa-98ac-1fd2c766b6a9)
 
 <p>
-Summary: Setting Up a Virtual Machine in Azure
+Step 1 : Setting Up a Virtual Machine in Azure
 
 To create a Virtual Machine (VM) in Microsoft Azure, start by logging into the Azure Portal and navigating to the Virtual Machines section. Click Create and select a Resource Group, or create a new one (e.g., "osTicket"). Name your VM (e.g., "osticket-VM") and choose a region.
 
@@ -51,7 +51,7 @@ Finally, review your selections and click Create. Once the VM is deployed, conne
 
 </p>
 <p>
-Summary: Connecting to Your Azure Virtual Machine via RDP
+Step 2 : Connecting to Your Azure Virtual Machine via RDP
 
 After creating your Azure Virtual Machine (VM), you will connect to it using Remote Desktop (RDP). First, retrieve the public IP address by navigating to the Virtual Machines section in the Azure Portal—the public IP will be displayed on the right side.
 
@@ -65,7 +65,7 @@ Next, open Remote Desktop Connection (RDP) on your Windows computer, enter the p
 
 </p>
 <p>
-Summary: Installing osTicket and Enabling IIS with CGI
+Step 3 : Installing osTicket and Enabling IIS with CGI
   
 After logging into your Azure Virtual Machine (osticket-VM), open Microsoft Edge and download the osTicket installation files using the following link:
 
@@ -96,7 +96,7 @@ Click OK to install IIS and enable the web server.
 
 </p>
 <p>
-Summary: Installing PHP Manager for IIS, Rewrite Module, and Setting Up PHP
+Step 4 : Installing PHP Manager for IIS, Rewrite Module, and Setting Up PHP
 
 Install PHP Manager for IIS
 
@@ -134,7 +134,7 @@ Click Extract to complete the process.
 
 </p>
 <p>
-Summary: Installing VC Redistributable and MySQL
+Step 5 : Installing VC Redistributable and MySQL
 
 Install VC Redistributable
 
@@ -172,7 +172,7 @@ Set a new root password, confirm it, then click Next and Execute to finalize the
 
 </p>
 <p>
-Summary: Configuring IIS and Registering PHP
+Step 6 : Configuring IIS and Registering PHP
 
 Open IIS as Administrator
 
@@ -209,7 +209,7 @@ Wait a moment, then right-click it again and select Start.
 
 </p>
 <p>
-Summary: Installing osTicket and Configuring IIS
+Step 7 : Installing osTicket and Configuring IIS
   
 Extract osTicket Files
 
@@ -243,7 +243,7 @@ If IIS is closed, search IIS in the Windows menu, right-click, and Run as Admini
 
 </p>
 <p>
-Summary: Loading osTicket and Enabling Required PHP Extensions
+Step 8 : Loading osTicket and Enabling Required PHP Extensions
 
 Load the osTicket Site
 
@@ -281,7 +281,7 @@ To enable each, right-click it and select Enable.
 
 </p>
 <p>
-Summary: Configuring osTicket Configuration File
+Step 9 : Configuring osTicket Configuration File
 Rename Configuration File
 
 Open File Explorer and navigate to:
@@ -315,7 +315,7 @@ Click Apply and OK to save changes.
 
 </p>
 <p>
-Summary: Completing osTicket Setup and Installing HeidiSQL
+Step 10 : Completing osTicket Setup and Installing HeidiSQL
 Access the osTicket Setup Page
 
 Open a web browser and go to:
@@ -351,7 +351,7 @@ Locate HeidiSQL and run the installer.
 
 </p>
 <p>
-Summary: Configuring HeidiSQL and Creating the osTicket Database
+Step 11 : Configuring HeidiSQL and Creating the osTicket Database
 Open HeidiSQL
 
 After installation, HeidiSQL should launch automatically.
@@ -384,7 +384,7 @@ Name the database osTicket and confirm.
 
 </p>
 <p>
-Summary: Finalizing osTicket Installation
+Step 12 : Finalizing osTicket Installation
 Return to the osTicket Setup Page
 
 Open your web browser and go back to the osTicket setup page.
